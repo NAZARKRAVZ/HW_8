@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .lessons-container {
+            justify-content: space-between;
+        }
+        
+        .lessons-container ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .lessons-container ul li {
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+        
+   
+        .lessons-container ul li:hover {
+            background-color: #ffc;
+        }
+        
+        .lessons-container ul li.active {
+            font-weight: bold;
+        }
+        
+        .lessons-container ul li:visited {
+            color: purple;
+        }
+        
+        .lessons-container ul li:focus {
+            outline: 2px solid blue;
+        }
+        
+        .lessons-container ul li:active {
+            transform: scale(1.1);
+        }
+        .lessons-container ul:nth-child(odd) li {
+            background-color: #f2f2f2;
+        }
+        
+        .lessons-container ul:nth-child(even) li {
+            background-color: #ddd;
+        }
+        
+        .lessons-container ul:first-child li {
+            color: blue;
+        }
+        
+        .lessons-container ul:last-child li {
+            color: red;
+        }
+        
+        .lessons-container ul li:nth-child(n+4) {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="lessons-container">
+        <ul>
+            <li>Понеділок</li>
+            <li>Математика</li>
+            <li>Українська мова</li>
+            <li>Англійська мова</li>
+            <li>Фізкультура</li>
+            <li>Географія</li>
+            <li class="active">Музика</li>
+        </ul>
+        <ul>
+            <li>Вівторок</li>
+            <li>Історія</li>
+            <li>Біологія</li>
+            <li>Фізика</li>
+            <li>Малювання</li>
+            <li>Музика</li>
+            <li>Геометрія</li>
+        </ul>
+        <ul>
+            <li>Середа</li>
+            <li>Фізкультура</li>
+            <li>Інформатика</li>
+            <li>Хімія</li>
+            <li>Алгебра</li>
+            <li>Музика</li>
+            <li>Іспанська мова</li>
+        </ul>
+        <ul>
+            <li>Четвер</li>
+            <li>Музика</li>
+            <li>Англійська мова</li>
+            <li>Українська мова</li>
+            <li>Історія</li>
+            <li>Астрономія</li>
+            <li>Математика</li>
+        </ul>
+        <ul>
+            <li>П'ятниця</li>
+            <li>Музика</li>
+            <li>Математика</li>
+            <li>Хімія</li>
+            <li>Біологія</li>
+            <li>Англійська мова</li>
+            <li>Фізика</li>
+        </ul>
+    </div>
+
+</body>
+</html>
